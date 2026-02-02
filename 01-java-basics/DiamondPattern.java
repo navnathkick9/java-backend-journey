@@ -1,6 +1,7 @@
 // This program prints a diamond pattern using asterisks.
 
 public class DiamondPattern {
+
     public static void main(String[] args) {
         int n = 5; // Number of rows for the upper half of the diamond
 
