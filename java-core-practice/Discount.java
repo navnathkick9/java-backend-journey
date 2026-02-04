@@ -23,7 +23,7 @@ public class Discount {
             
         }
 
-         if(Amount>=10000 && Amount<=12000)
+         else if(Amount>=10000 && Amount<=12000)
         {
             System.out.println("Shopping Amount :- "+Amount);
             net_amount = Amount - (Amount*6)/50;
@@ -36,7 +36,7 @@ public class Discount {
             
         }
 
-         if(Amount>12000 &&  Amount<=15000)
+         else if(Amount>12000 &&  Amount<=15000)
         {
             System.out.println("Shopping Amount :- "+Amount);
             net_amount = Amount - (Amount*3)/20;
@@ -49,7 +49,7 @@ public class Discount {
             
         }
 
-         if(Amount>15000 &&  Amount<=20000)
+         else if(Amount>15000 &&  Amount<=20000)
         {
 
             System.out.println("Shopping Amount :- "+Amount);
